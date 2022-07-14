@@ -1,0 +1,88 @@
+    1  sudo apt install git
+    2  git --version
+    3  git config --global user.name "Nilesh Vaghela"
+    4  git config --global user.name
+    5  git config --global user.email "nilesh.vaghela2@electromech.info"
+    6  git config --global user.email
+    7  history 
+    8  reboot
+    9  sudo -i
+   10  history 
+   11  cd Downloads/
+   12  ls
+   13  sudo dpkg -i gcm-linux_amd64.2.0.785.deb 
+   14  cd
+   15  git-credential-manager-core configure
+   16  export GCM_CREDENTIAL_STORE=cache
+   17  mkdir projects
+   18  cd projects/
+   19  mkdir my-repo
+   20  cd my-repo/
+   21  ls -a
+   22  git init 
+   23  ls -a
+   24  touch README.md
+   25  echo "filea" > filea.txt
+   26  echo "fileb" > fileb.txt
+   27  ls
+   28  git status
+   29  git README.md
+   30  git add README.md
+   31  git status
+   32  git add .
+   33  git status
+   34  git commit -m "Adding three files README filea and fileb"
+   35  git status
+   36  history 
+   37  git status
+   38  git branch
+   39  git branch featur1
+   40  git branch
+   41  git checkout featur1
+   42  git branch
+   43  echo "filec" > filec
+   44  git status
+   45  git add filec 
+   46  git status
+   47  git commit -m "filec added"
+   48  git status
+   49  git branch
+   50  git branch master 
+   51  git checkout  master 
+   52  git status
+   53* 
+   54  git checkout featur1 
+   55  ls
+   56  git checkout master 
+   57  git branch 
+   58  git merge featur1 
+   59  ls
+   60  cd ..
+   61  git clone https://github.com/nileshvaghela2/hello-world.git
+   62  ls
+   63  cd hello-world/
+   64  ls
+   65  ls -a
+   66  cat README.md 
+   67  vim filen1.txt
+   68  git status
+   69  git add filen1.txt 
+   70  git status
+   71  git commit -m "added filen1.txt"
+   72  git status
+   73  history 
+   74  git push master
+   75  git push origin
+   76  git branch
+   77  ls
+   78  echo "file2" file2.txt
+   79  echo "file2" >file2.txt
+   80  ls
+   81  cat file2.txt 
+   82  git status
+   83  git add file2.txt 
+   84  git commit -m "File2 commit"
+   85  git status
+   86  git push origin
+   87  history 
+   88  history > file-history.txt
