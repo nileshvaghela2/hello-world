@@ -86,3 +86,11 @@
    86  git push origin
    87  history 
    88  history > file-history.txt
+   89  git status
+   90  git add file-history.txt 
+   91  git commit -m "adding git history file"
+   92  git push origin
+   93  git status
+   94  git pull 
+   95  ls
+   96  history > file-history.txt
