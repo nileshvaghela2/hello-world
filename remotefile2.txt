@@ -1,0 +1,4 @@
+Remote file2 update
+Adding remotefile2
+Checking communication between remote repo and local repo
+Checking git pull
