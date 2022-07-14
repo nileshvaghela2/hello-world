@@ -94,3 +94,72 @@
    94  git pull 
    95  ls
    96  history > file-history.txt
+   97  git status
+   98  git add file-history.txt 
+   99  git commit -m "History file updated"
+  100  git push origin
+  101  cd
+  102  cd projects/
+  103  cd hello-world/
+  104  ls
+  105  git pull 
+  106  ls
+  107  git tag v1.1
+  108  git tag
+  109  git log
+  110  git tag
+  111  for i in {a..e}; do echo file$i > file$i; done
+  112  ls
+  113  git status
+  114  git add filea fileb filec
+  115  git status
+  116  git commit -m "filea fileb filec created"
+  117  git push origin
+  118  git status
+  119  git tag
+  120  git tag v1.2
+  121  git tag
+  122  git add filed filee
+  123  git commit -m "filed filee created"
+  124  git push origin
+  125  git tag
+  126  git tag v1.3
+  127  git tag
+  128  git checkout v1.2
+  129  ls
+  130  git checkout v1.3
+  131  ls
+  132  git checkout v1.1
+  133  ls
+  134  git checkout v1.3
+  135  ls
+  136  history 
+  137  git --version
+  138  git tag --help
+  139  git log --oneline
+  140  git log
+  141  git log --oneline
+  142  cd ..
+  143  mkdir two
+  144  cd two
+  145  git clone https://github.com/nileshvaghela2/hello-world.git
+  146  ls
+  147  cd hello-world/
+  148  ls
+  149  git config user.name nilesh2
+  150  git config user.email nilesh2@electromech.info
+  151  git config user.name
+  152  git config user.email
+  153  vim file1
+  154  git add file1
+  155  git commit -m "File1 added"
+  156  git push origin
+  157  ls
+  158  vim file1
+  159  git add file1 
+  160  git commit -m "FIle1 changed"
+  161  git push origin
+  162  git blame README.md
+  163  ls
+  164* 
+  165  history > file-history.txt 
